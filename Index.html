@@ -109,12 +109,12 @@
 			<div class="layer">
 				<h5>Visual Design</h5>
 				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
-				<a href="https://r6n606dm-7008.euw.devtunnels.ms/"> <i class='bx bx-link-external'></i></a>
+				<a href="https://vzwlsq47-7008.euw.devtunnels.ms/"> <i class='bx bx-link-external'></i></a>
 			</div>
 		</div>
 
 		<div class="row">
-			<img src="img/InflowMobile.jpg">
+			<img src="img/InflowMobile.png">
 			<div class="layer">
 				<h5>Visual Design</h5>
 				<p>Check out 10 best Design's updates for the top web design & development compaines.</p>
@@ -146,15 +146,13 @@
 
 	</div>
 	<div class="contact-form">
-		<form action="">
-			<input type="name" placeholder="Your Name " required>
-			<input type="email" placeholder="Your Email " required>
-			<input type="number" placeholder="your Mobile Number" required>
-			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
-			<input type="submit" value="Send Message" class="submit" required>
-		</form>
-
-	</div>
+        <form id="contact-form" action="C#Code/SendEmail.cs" method="post">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" cols="35" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
 </section>
 
 <!---------End Section---------->
@@ -166,7 +164,5 @@
 		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
 	</div>
 </section>
-
 </body>
-
 </html>
