@@ -89,7 +89,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(/img/background.jpg);
+    background-image: url(/img/Software.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -174,11 +174,11 @@ section {
 }
 
 .about-img img {
-    max-width: 530px;
+    max-width: 800px;
     height: auto;
     width: 100%;
+    margin-right: 60px;
     border-radius: 5px;
-
 }
 
 .about-text h2 {
